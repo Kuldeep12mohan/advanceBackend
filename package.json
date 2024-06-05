@@ -1,12 +1,16 @@
 {
   "name": "advanceproject",
   "version": "1.0.0",
-  "description": "",
+  "description": "a advance backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start":"node server.js"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
 }
